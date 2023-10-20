@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "deluxesmithing",
+	"version": "${version}",
+	"name": "Deluxe Smithing",
+	"description": "Customize several aspects of the smithing table screenhandler",
+	"authors": [
+		"Andrew6rant (Andrew Grant)"
+	],
+	"contact": {
+		"sources": "https://github.com/Andrew6rant/"
+	},
+	"license": "MIT",
+	"icon": "assets/deluxesmithing/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+		],
+		"client": [
+			"io.github.andrew6rant.deluxesmithing.DeluxeSmithingClient"
+		]
+	},
+	"mixins": [
+		"deluxesmithing.mixins.json",
+		{
+			"config": "deluxesmithing.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

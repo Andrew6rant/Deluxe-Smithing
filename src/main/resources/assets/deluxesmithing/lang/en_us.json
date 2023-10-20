@@ -1,0 +1,11 @@
+{
+  "deluxesmithing.midnightconfig.title": "Deluxe Smithing",
+  "deluxesmithing.midnightconfig.immediate": "The following changes are applied immediately",
+  "deluxesmithing.midnightconfig.armorStandRenderX": "Armor Stand Render X",
+  "deluxesmithing.midnightconfig.armorStandRenderY": "Armor Stand Render Y",
+  "deluxesmithing.midnightconfig.armorStandRenderSize": "Armor Stand Size",
+  "deluxesmithing.midnightconfig.rotationSpeed": "Armor Stand Rotation Speed",
+  "deluxesmithing.midnightconfig.armorStandRenderEnum": "Armor Stand Render Mode",
+  "deluxesmithing.midnightconfig.enum.ArmorStandRenderEnum.ROTATE": "Rotate",
+  "deluxesmithing.midnightconfig.enum.ArmorStandRenderEnum.FOLLOW_MOUSE": "Follow Mouse"
+}
